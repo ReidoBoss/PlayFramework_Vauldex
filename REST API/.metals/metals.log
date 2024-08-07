@@ -1,0 +1,411 @@
+2024.08.08 05:04:47 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API' for client Visual Studio Code 1.92.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@336ae507]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@39defad9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@336ae507]
+2024.08.08 05:04:48 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.08 05:04:53 WARN  Build server is not auto-connectable.
+2024.08.08 05:06:09 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:09 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:10 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:10 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:11 WARN  Could not find semantic tokens for: file:///C:/Users/PC/Desktop/PlayFramework_Vauldex/REST%20API/app/controllers/BookController.scala
+2024.08.08 05:06:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:11 WARN  Could not find semantic tokens for: file:///C:/Users/PC/Desktop/PlayFramework_Vauldex/REST%20API/app/controllers/BookController.scala
+2024.08.08 05:06:18 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 08, 2024 5:06:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Aug 08, 2024 5:06:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:24 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:26 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:26 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:26 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:28 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:28 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:28 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:28 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:30 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:34 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:06:51 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:17 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:21 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:07:21 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 WARN  Using indexes to guess the definition of books
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:31 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:31 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:35 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:35 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:35 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:40 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:40 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:40 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:43 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:43 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:43 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:43 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:46 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:46 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:47 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:47 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:47 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:07:48 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:07:48 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:10 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:10 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:10 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:13 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:08:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:34 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:08:34 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:35 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:49 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:51 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:08:51 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:08:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:00 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:09:00 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:09 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:16 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:09:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:23 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:33 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:09:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:09:33 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:09:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:07 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:17 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:17 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:18 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:22 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:24 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:24 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:24 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:24 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:24 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:25 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:29 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:30 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:30 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:30 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:33 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:34 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:34 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:38 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:38 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:41 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:42 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:42 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:44 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:45 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:47 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:47 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:57 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:10:57 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:57 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 08, 2024 5:10:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 527
+2024.08.08 05:10:57 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:10:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:00 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:00 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:04 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:04 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:07 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:08 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:11 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:17 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:17 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:25 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:25 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:25 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:25 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:11:25 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:37 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:11:37 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:38 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:11:38 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:41 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:11:41 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:50 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:52 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:52 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:53 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:53 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:53 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:53 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:53 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:55 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:55 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:55 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:55 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:55 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:11:59 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:12:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:12:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:12:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:12:03 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:12:03 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:12:04 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:12:04 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:00 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:01 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:06 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:12 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 08, 2024 5:48:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\.metals\.reports\metals-full\2024-08-08\r_compiler-error_05-48-13-895.md
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:13 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:14 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:15 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:48:15 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:16 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:19 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:48:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:21 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:22 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:48:22 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:40 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:40 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:40 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:48:41 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:56 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:56 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:56 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:48:56 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:48:56 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:18 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:19 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:19 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:19 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:20 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:20 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:23 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:23 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:26 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:28 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:28 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:29 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:29 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:30 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:30 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:32 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:33 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:35 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:35 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:36 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:39 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:41 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:41 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:47 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:49 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:49 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:54 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:56 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:49:56 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:49:58 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:00 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:50:00 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:01 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:01 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:02 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:05 WARN  no build target for: C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala
+2024.08.08 05:50:05 INFO  no build target found for C:\Users\PC\Desktop\PlayFramework_Vauldex\REST API\app\controllers\BookController.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.08 05:50:05 INFO  Shutting down server
+2024.08.08 05:50:05 INFO  shutting down Metals
+2024.08.08 05:50:05 INFO  Exiting server
