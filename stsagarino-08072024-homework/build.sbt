@@ -1,4 +1,4 @@
-name := """stsagarino"""
+name := """stsagarino-07082024-homework"""
 organization := "com.vauldex"
 
 version := "1.0-SNAPSHOT"
@@ -8,8 +8,10 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 scalaVersion := "3.3.1"
 
 libraryDependencies += guice
-libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
-
+libraryDependencies ++= Seq(
+  "com.typesafe.play" %% "play-json" % "2.9.2",
+  "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.1" % Test
+)
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.vauldex.controllers._"
 
