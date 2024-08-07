@@ -1,0 +1,105 @@
+f you want to add a person using Postman, you can set up your add endpoint to handle JSON data from a POST request. This way, you can test your API by sending JSON payloads directly from Postman.
+
+Here’s how to do it:
+
+Updated Controller:
+
+	1.	Define the add Action to Handle JSON POST Requests:
+Update the add method to parse JSON data and add a person to the list. To maintain immutability, we will use a function that takes the current list, adds a person to it, and returns the updated list.
+	2.	Store the List in a Singleton Object:
+This ensures that the list persists across requests without using mutable variables within the controller.
+
+package controllers
+
+import javax.inject._
+import play.api._
+import play.api.mvc._
+import play.api.libs.json._
+
+@Singleton
+class HomeController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
+
+  /**
+   * Create an Action to render an HTML page.
+   *
+   * The configuration in the routes file means that this method
+   * will be called when the application receives a GET request with
+   * a path of /.
+   */
+
+  def index() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.index())
+  }
+  
+  def explore() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.explore())
+  }
+  
+  def tutorial() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.tutorial())
+  }
+
+  case class Person(name: String, age: Int)
+
+  object Person {
+    implicit val personFormat: Format[Person] = Json.format[Person]
+  }
+
+  object PersonRepository {
+    private var persons: List[Person] = List(Person("Martoms", 18), Person("Loreto", 12))
+
+    def addPerson(person: Person): List[Person] = {
+      persons = person :: persons
+      persons
+    }
+
+    def getPersons: List[Person] = persons
+  }
+
+  def add = Action(parse.json) { implicit request: Request[JsValue] =>
+    request.body.validate[Person].fold(
+      errors => BadRequest(Json.obj("status" -> "error", "message" -> JsError.toJson(errors))),
+      person => {
+        PersonRepository.addPerson(person)
+        Ok(Json.obj("status" -> "success", "person" -> Json.toJson(person)))
+      }
+    )
+  }
+
+  def get = Action { implicit request: Request[AnyContent] =>
+    Ok(Json.toJson(PersonRepository.getPersons))
+  }
+}
+
+Routes Configuration:
+
+Update your conf/routes file:
+
+GET     /                       controllers.HomeController.index
+GET     /explore                controllers.HomeController.explore
+GET     /tutorial               controllers.HomeController.tutorial
+GET     /get                    controllers.HomeController.get
+POST    /add                    controllers.HomeController.add
+
+Testing with Postman:
+
+	1.	Add a Person:
+	•	Set the request type to POST.
+	•	Set the URL to http://localhost:9000/add.
+	•	In the “Body” tab, select “raw” and “JSON” as the format.
+	•	Add a JSON payload, for example:
+
+{
+  "name": "Alice",
+  "age": 30
+}
+
+
+	•	Send the request.
+
+	2.	Get the List of Persons:
+	•	Set the request type to GET.
+	•	Set the URL to http://localhost:9000/get.
+	•	Send the request to retrieve the list of persons.
+
+By following these steps, you can use Postman to add a new person to your list and retrieve the updated list, all while adhering to functional programming principles by keeping your data structures immutable.
