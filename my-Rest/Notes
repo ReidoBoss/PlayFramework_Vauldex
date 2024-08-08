@@ -1,0 +1,119 @@
+Manipulate Results
+
+-> Manipulat what will be the result you are going to send
+example:
+	change content type
+
+    //add session---
+    Redirect("/books").withSession("connected" -> "Stephen@gmail.com")
+
+    //get/reading session data----
+    request.session.get("connected").map { user =>
+      Ok("Hello " + user)
+    }.getOrElse {
+      Unauthorized(<h1>You are not connected!</h1>).as(HTML)
+    }
+    // Discarding the Session:   
+    Redirect("/books").withNewSession
+    
+    // Flash session: Used when logging in with google or something. 
+    def save: Action[AnyContent] = Action {
+      Redirect("/home").flashing("success" -> "The item has been created")
+    }
+
+    	•	Reading Flash Data:
+
+	def index: Action[AnyContent] = Action { implicit request =>
+	  Ok(request.flash.get("success").getOrElse("Welcome!"))
+	}
+
+
+Success Responses
+
+1. Ok: 200 OK
+
+Ok("Success")
+
+
+2. Created: 201 Created
+
+Created("Resource created")
+
+
+3. Accepted: 202 Accepted
+
+Accepted("Request accepted")
+
+
+4. NoContent: 204 No Content
+
+NoContent
+
+
+5. Redirect: 302 Found (redirect)
+
+Redirect(routes.HomeController.index())
+
+
+6. SeeOther: 303 See Other (redirect)
+
+SeeOther(routes.HomeController.index())
+
+
+7. MovedPermanently: 301 Moved Permanently (redirect)
+
+MovedPermanently(routes.HomeController.index())
+
+
+8. NotModified: 304 Not Modified
+
+NotModified
+
+
+
+Client Error Responses
+
+1. BadRequest: 400 Bad Request
+
+BadRequest("Invalid request")
+
+
+2. Unauthorized: 401 Unauthorized
+
+Unauthorized("Not authorized")
+
+
+3. Forbidden: 403 Forbidden
+
+Forbidden("Access denied")
+
+
+4. NotFound: 404 Not Found
+
+NotFound("Resource not found")
+
+
+5. MethodNotAllowed: 405 Method Not Allowed
+
+MethodNotAllowed("Method not allowed")
+
+
+
+Server Error Responses
+
+1. InternalServerError: 500 Internal Server Error
+
+InternalServerError("Internal server error")
+
+
+2. ServiceUnavailable: 503 Service Unavailable
+
+ServiceUnavailable("Service unavailable")
+
+
+
+Generic Responses
+
+1. Status: Custom status code
+
+Status(418)("I'm a teapot")
