@@ -1,0 +1,58 @@
+Scala Error Handling
+
+Handling errors in the Play framework can seem complex, but it's all about ensuring that when things go wrong, your application responds appropriately depending on the situation. Here's a simplified explanation:
+
+### Types of Errors:
+- *Client Errors (4xx)*: These occur when the client (like a browser or app) makes a mistake. For example, asking for a page that doesn't exist (404 error) or sending a bad request.
+- *Server Errors (5xx)*: These happen when something goes wrong on your server, like your code throwing an unexpected exception.
+
+### How Play Handles Errors:
+- *Automatic Handling*: Play automatically catches many errors. If there's a client error, like a malformed request, Play will generate an appropriate error message. If your server code throws an exception, Play catches it and sends a server error page back to the client.
+
+### Customizing Error Responses:
+- **HttpErrorHandler Interface**: This is where you can define how errors are handled. There are two key methods:
+  - onClientError: Deals with client errors.
+  - onServerError: Handles server errors.
+
+### JSON API Error Handling:
+- By default, Play returns errors in HTML format, which isn’t ideal for a JSON API. To make errors return as JSON, you can use JsonHttpErrorHandler. You set this up in your application.conf file with the line:
+  
+  play.http.errorHandler = play.api.http.JsonHttpErrorHandler
+
+
+### Handling Multiple Content Types:
+- If your app needs to support both HTML and JSON (common in modern web apps), you can use HtmlOrJsonHttpErrorHandler, which decides the error format based on what the client requests.
+
+### Custom Error Handlers:
+- *Custom Implementation*: You can create your own error handler by implementing HttpErrorHandler. This lets you fully customize what the client sees when an error occurs.
+- *Using in Different Environments*: You might want different error messages in development versus production. Play allows you to extend DefaultHttpErrorHandler to keep useful development features (like detailed error messages) while customizing production responses.
+
+### Example:
+Here’s a basic example of a custom error handler:
+import javax.inject.Singleton
+import scala.concurrent._
+import play.api.http.HttpErrorHandler
+import play.api.mvc._
+import play.api.mvc.Results._
+
+@Singleton
+class ErrorHandler extends HttpErrorHandler {
+  def onClientError(request: RequestHeader, statusCode: Int, message: String): Future[Result] = {
+    Future.successful(
+      Status(statusCode)("A client error occurred: " + message)
+    )
+  }
+
+  def onServerError(request: RequestHeader, exception: Throwable): Future[Result] = {
+    Future.successful(
+      InternalServerError("A server error occurred: " + exception.getMessage)
+    )
+  }
+}
+
+This example shows how you can create a simple handler that returns plain messages for client and server errors.
+
+### Extending Play's Default Handler:
+- Play’s default error handler is already pretty powerful. It even helps you in development by showing the exact code that caused the error. If you need more control in production, you can override specific methods, like onProdServerError, while keeping the helpful development features.
+
+By understanding and customizing these error handlers, you can ensure your Play application responds appropriately in all situations, whether serving HTML, JSON, or other content types.

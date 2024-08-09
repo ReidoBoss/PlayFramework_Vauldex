@@ -1,0 +1,139 @@
+Action Composition in Play Framework
+
+Action Composition is a technique in Play Framework that allows you to build modular and reusable action components. This is especially useful for implementing features like logging, authentication, and request modification across multiple endpoints.
+
+Custom Action Builders
+
+Action builders provide a flexible way to define custom logic that runs before your controller actions. Play Framework provides a trait called ActionBuilder, which allows you to build reusable action stacks. For instance, you might want to log every incoming request:
+
+import play.api.mvc._
+import javax.inject.Inject
+import scala.concurrent.{ExecutionContext, Future}
+
+class LoggingAction @Inject()(parser: BodyParsers.Default)(implicit ec: ExecutionContext)
+  extends ActionBuilderImpl(parser) with Logging {
+
+  override def invokeBlock[A](request: Request[A], block: (Request[A]) => Future[Result]) = {
+    logger.info("Calling action")
+    block(request)
+  }
+}
+
+In your controller, you can inject and use this custom action just like the built-in Action:
+
+class MyController @Inject()(loggingAction: LoggingAction, cc: ControllerComponents)
+  extends AbstractController(cc) {
+
+  def index = loggingAction {
+    Ok("Hello World")
+  }
+}
+
+You can also use this custom action with different body parsers:
+
+def submit: Action[String] = loggingAction(parse.text) { request =>
+  Ok(s"Got a body ${request.body.length} bytes long")
+}
+
+Composing Actions
+
+Instead of rewriting code for different action builders, you can create reusable components that wrap existing actions:
+
+case class Logging[A](action: Action[A]) extends Action[A] with play.api.Logging {
+  def apply(request: Request[A]): Future[Result] = {
+    logger.info("Calling action")
+    action(request)
+  }
+
+  override def parser           = action.parser
+  override def executionContext = action.executionContext
+}
+
+You can also achieve this without defining a new action class by using a helper method:
+
+def logging[A](action: Action[A]) = Action.async(action.parser) { request =>
+  logger.info("Calling action")
+  action(request)
+}
+
+This approach can be integrated with action builders:
+
+class LoggingAction @Inject()(parser: BodyParsers.Default)(implicit ec: ExecutionContext)
+  extends ActionBuilderImpl(parser) {
+
+  override def composeAction[A](action: Action[A]): Logging[A] = new Logging(action)
+}
+
+Modifying Requests and Responses
+
+You can also use action composition to modify requests before they reach the controller or to alter the responses:
+
+Modifying Requests:
+
+def xForwardedFor[A](action: Action[A]) = Action.async(action.parser) { request =>
+  val newRequest = request.headers.get("X-Forwarded-For") match {
+    case None => request
+    case Some(xff) =>
+      val xffConnection = RemoteConnection(xff, request.connection.secure, None)
+      request.withConnection(xffConnection)
+  }
+  action(newRequest)
+}
+
+Modifying Responses:
+
+def addUaHeader[A](action: Action[A]) = Action.async(action.parser) { request =>
+  action(request).map(_.withHeaders("X-UA-Compatible" -> "Chrome=1"))
+}
+
+Using Action Functions
+
+Action functions are higher-order functions that operate on requests. They allow you to build pipelines of transformations:
+
+	•	ActionTransformer changes the request.
+	•	ActionFilter intercepts requests.
+	•	ActionRefiner is a general case that can either modify the request or filter it.
+
+Example: Authentication
+
+class UserRequest[A](val username: Option[String], request: Request[A]) extends WrappedRequest[A](request)
+
+class UserAction @Inject()(val parser: BodyParsers.Default)(implicit val executionContext: ExecutionContext)
+  extends ActionBuilder[UserRequest, AnyContent] with ActionTransformer[Request, UserRequest] {
+
+  def transform[A](request: Request[A]) = Future.successful {
+    new UserRequest(request.session.get("username"), request)
+  }
+}
+
+Chaining Action Functions
+
+You can chain these action functions together to create more complex behaviors:
+
+def tagItem(itemId: String, tag: String)(implicit ec: ExecutionContext): Action[AnyContent] =
+  userAction.andThen(ItemAction(itemId)).andThen(PermissionCheckAction) { request =>
+    request.item.addTag(tag)
+    Ok(s"User ${request.username} tagged ${request.item.id}")
+  }
+
+Deferred Body Parsing
+
+Sometimes, you may want to defer body parsing until after some action functions have been executed. This can be useful for conditional authorization or for using request-specific data to configure the body parser.
+
+To enable deferred body parsing:
+
+	•	Globally in conf/application.conf:
+
+play.server.deferBodyParsing = true
+
+
+	•	For specific routes:
+
++ deferBodyParsing
+POST / controllers.HomeController.uploadFileToS3
+
+
+
+Conclusion
+
+Action composition in Play Framework is a powerful technique that allows you to encapsulate cross-cutting concerns and reuse action logic across your application. Whether you need to log requests, handle authentication, or modify requests and responses, action composition provides a flexible, scalable solution.
